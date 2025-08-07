@@ -32,7 +32,10 @@ export default function SkillsSection() {
   }, []);
 
   return (
-    <section className="bg-[#0f172a] text-white py-20 px-6 md:px-20">
+    <section
+      id="skills"
+      className="bg-[#0f172a] text-white py-20 px-6 md:px-20"
+    >
       <div className="grid md:grid-cols-2 gap-16">
         {/* Left Text Area */}
         <div>

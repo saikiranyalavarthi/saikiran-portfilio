@@ -63,7 +63,10 @@ const realServices = [
 
 export default function RealServicesSection() {
   return (
-    <section className="bg-[#0f172a] text-white py-20 px-6 md:px-20">
+    <section
+      id="services"
+      className="bg-[#0f172a] text-white py-20 px-6 md:px-20"
+    >
       <div className="text-center mb-16">
         <h2 className="text-yellow-400 text-3xl tracking-widest mb-2">
           SERVICES

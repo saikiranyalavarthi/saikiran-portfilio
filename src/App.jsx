@@ -5,16 +5,20 @@ import About from "./Components/About";
 import ServiceSection from "./Components/ServiceSection";
 import SkillsSection from "./Components/SkillsSection";
 import Contact from "./Components/Contact";
+import Projects from "./Components/Projects";
+import Footer from "./Components/Footer";
 
 const App = () => {
   return (
-    <div>
+    <div id="home">
       <Navbar />
       <Hero />
       <About />
       <ServiceSection />
       <SkillsSection />
+      <Projects />
       <Contact />
+      <Footer />
     </div>
   );
 };

@@ -2,6 +2,7 @@
 import heroAnimation from "../assets/Programming Computer.json";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { Player } from "@lottiefiles/react-lottie-player";
+import { SiVercel } from "react-icons/si";
 
 export default function Hero() {
   return (
@@ -19,10 +20,12 @@ export default function Hero() {
         <p className="text-white text-lg md:text-xl mt-4">
           Full Stack Developer
         </p>
-
-        <button className="mt-8 bg-yellow-300 text-black px-8 py-3 rounded-full text-base md:text-lg font-medium hover:bg-yellow-400 transition duration-300">
+        <a
+          href="#contact"
+          className="mt-8 inline-block bg-yellow-300 text-black px-8 py-3 rounded-full text-base md:text-lg font-medium hover:bg-yellow-400 transition duration-300 cursor-pointer shadow-lg"
+        >
           Hire Me
-        </button>
+        </a>
 
         {/* Social Icons */}
         <div className="mt-6 flex justify-center md:justify-start gap-5">
@@ -41,6 +44,14 @@ export default function Hero() {
             className="text-white hover:text-yellow-300 text-2xl transition duration-300"
           >
             <FaLinkedin />
+          </a>
+          <a
+            href="https://vercel.com/saikiranyalavarthi"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white hover:text-yellow-300 text-2xl transition duration-300"
+          >
+            <SiVercel />
           </a>
         </div>
       </div>

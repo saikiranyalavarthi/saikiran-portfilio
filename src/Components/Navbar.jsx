@@ -25,14 +25,14 @@ export default function Navbar() {
           <a href="#about" className="hover:text-amber-300 transition">
             ABOUT
           </a>
-          <a href="#resume" className="hover:text-amber-300 transition">
-            RESUME
+          <a href="#services" className="hover:text-amber-300 transition">
+            SERVICES
           </a>
-          <a href="#portfolio" className="hover:text-amber-300 transition">
-            PORTFOLIO
+          <a href="#projects" className="hover:text-amber-300 transition">
+            PROJECTS
           </a>
-          <a href="#blog" className="hover:text-amber-300 transition">
-            BLOG
+          <a href="#skills" className="hover:text-amber-300 transition">
+            SKILLS
           </a>
           <a href="#contact" className="hover:text-amber-300 transition">
             CONTACT
