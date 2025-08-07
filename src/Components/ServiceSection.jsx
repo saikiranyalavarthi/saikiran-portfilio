@@ -79,7 +79,7 @@ export default function RealServicesSection() {
             key={index}
             className="bg-[#1e293b] hover:bg-[#334155] transition-all duration-300 rounded-xl shadow-md p-8 text-center transform hover:-translate-y-2 hover:shadow-lg group"
           >
-            <div className="text-yellow-400 mb-6 group-hover:scale-110 transition duration-300">
+            <div className="text-yellow-400 mb-6 group-hover:scale-110 transition duration-300 justify-center flex items-center ">
               {service.icon}
             </div>
             <h4 className="text-xl font-semibold mb-3 group-hover:text-yellow-400">
