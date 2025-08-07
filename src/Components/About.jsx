@@ -76,7 +76,7 @@ export default function About() {
           {/* Download CV Button */}
           <div className="mt-10">
             <a
-              href="/cv.pdf" // Replace with your actual CV path
+              href="/YALAVARTHI SAIKIRAN RESUEME EXPERINCE 2025.pdf" // Replace with your actual CV path
               download
               className="inline-block bg-yellow-300 text-black font-semibold px-6 py-3 rounded-full hover:bg-yellow-400 transition"
             >
