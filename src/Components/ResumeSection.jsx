@@ -1,6 +1,6 @@
 import React from "react";
 import Lottie from "lottie-react";
-import educationAnimation from "../assets/Robot Futuristic Animation.json"; // Replace with your file path
+import educationAnimation from "../assets/Robot Futuristic Animation.json";
 
 const ResumeSection = () => {
   const experience = [
@@ -63,7 +63,7 @@ const ResumeSection = () => {
           <Lottie
             animationData={educationAnimation}
             loop={true}
-            className="w-[500px] md:w-[500px] lg:w-[500px]"
+            className="w-[400px] max-w-full h-auto"
           />
         </div>
 
