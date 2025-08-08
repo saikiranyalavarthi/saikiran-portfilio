@@ -82,7 +82,7 @@ export default function Navbar() {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden bg-background px-4 py-4 space-y-4">
-          {["HOME", "ABOUT", "RESUME", "PORTFOLIO", "BLOG", "CONTACT"].map(
+          {["HOME", "ABOUT", "RESUME", "PROJECTS", "BLOG", "CONTACT"].map(
             (item) => (
               <a
                 key={item}
