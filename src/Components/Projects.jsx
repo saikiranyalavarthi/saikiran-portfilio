@@ -54,7 +54,7 @@ export default function Projects() {
       id="projects"
       className="font-sans py-20 px-6 md:px-20 bg-black text-white"
     >
-      <h1 className="text-4xl font-bold text-indigo-700 text-center mb-12">
+      <h1 className="text-4xl font-bold text-amber-300 text-center mb-12">
         Our Projects
       </h1>
 
@@ -69,7 +69,7 @@ export default function Projects() {
               alt={proj.title}
               className="w-full h-48 object-cover rounded-md mb-4"
             />
-            <h3 className="text-lg font-semibold text-indigo-700 mb-2">
+            <h3 className="text-lg font-semibold text-amber-300 mb-2">
               {proj.title}
             </h3>
             <p className="text-gray-300 text-sm">{proj.description}</p>
