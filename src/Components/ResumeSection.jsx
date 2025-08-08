@@ -63,7 +63,7 @@ const ResumeSection = () => {
           <Lottie
             animationData={educationAnimation}
             loop={true}
-            className="w-[300px] md:w-[400px] lg:w-[500px]"
+            className="w-[500px] md:w-[500px] lg:w-[500px]"
           />
         </div>
 
