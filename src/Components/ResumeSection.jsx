@@ -1,8 +1,27 @@
 import React from "react";
-import Lottie from "lottie-react";
-import educationAnimation from "../assets/Robot Futuristic Animation.json";
 
 const ResumeSection = () => {
+  const education = [
+    {
+      degree: "B.Tech – Mechanical Engineering",
+      school: "KKR & KSR Institute of Technology, Guntur",
+      year: "2017–2020",
+      gpa: "CGPA: 8.2",
+    },
+    {
+      degree: "Diploma – DME (Mechanical)",
+      school: "Bapatla Polytechnic College, Bapatla",
+      year: "2014–2017",
+      gpa: "80.8%",
+    },
+    {
+      degree: "SSC – English Medium",
+      school: "SVVG ZPH School, Guntur",
+      year: "2013–2014",
+      gpa: "GPA: 8.8",
+    },
+  ];
+
   const experience = [
     {
       title: "Full Stack Developer",
@@ -17,7 +36,7 @@ const ResumeSection = () => {
       ],
     },
     {
-      title: "Front end Developer",
+      title: "Front end  Developer ",
       company: "Suvira Facilities Pvt Ltd",
       location: "Hyderabad",
       duration: "Feb 2023 –  Feb 2024",
@@ -57,17 +76,28 @@ const ResumeSection = () => {
         Resume
       </h2>
 
-      <div className="grid md:grid-cols-2 gap-12 items-center">
-        {/* Lottie Animation */}
-        <div className="flex justify-center">
-          <Lottie
-            animationData={educationAnimation}
-            loop={true}
-            className="w-[400px] max-w-full h-auto"
-          />
+      <div className="grid md:grid-cols-2 gap-12 ">
+        {/* Education */}
+        <div>
+          <h3 className="text-2xl font-semibold mb-6 text-yellow-300 ">
+            🎓 Educational Background
+          </h3>
+          <div className="space-y-6">
+            {education.map((edu, index) => (
+              <div key={index} className="border-l-4 border-yellow-500 pl-4">
+                <h4 className="text-lg font-semibold text-amber-300">
+                  {edu.degree}
+                </h4>
+                <p className="text-gray-300">
+                  {edu.school} ({edu.year})
+                </p>
+                <p className="text-sm text-gray-400">{edu.gpa}</p>
+              </div>
+            ))}
+          </div>
         </div>
 
-        {/* Experience Section */}
+        {/* Experience */}
         <div>
           <h3 className="text-2xl font-semibold mb-6 text-yellow-300">
             💼 Work Experience
