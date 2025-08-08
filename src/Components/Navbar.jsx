@@ -82,17 +82,15 @@ export default function Navbar() {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden bg-background px-4 py-4 space-y-4">
-          {["HOME", "ABOUT", "RESUME", "PROJECTS", "BLOG", "CONTACT"].map(
-            (item) => (
-              <a
-                key={item}
-                href={`#${item.toLowerCase()}`}
-                className="block text-white hover:text-primary"
-              >
-                {item}
-              </a>
-            )
-          )}
+          {["HOME", "ABOUT", "RESUME", "PROJECTS", "CONTACT"].map((item) => (
+            <a
+              key={item}
+              href={`#${item.toLowerCase()}`}
+              className="block text-white hover:text-primary"
+            >
+              {item}
+            </a>
+          ))}
           <div className="flex items-center text-primary">
             <FaPhone className="mr-2" />
             <span>+91 9390627367</span>
