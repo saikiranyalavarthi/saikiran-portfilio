@@ -25,6 +25,9 @@ export default function Navbar() {
           <a href="#about" className="hover:text-amber-300 transition">
             ABOUT
           </a>
+          <a href="#resume" className="hover:text-amber-300 transition">
+            RESUME
+          </a>
           <a href="#services" className="hover:text-amber-300 transition">
             SERVICES
           </a>

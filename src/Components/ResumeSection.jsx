@@ -71,7 +71,7 @@ const ResumeSection = () => {
   ];
 
   return (
-    <section className="bg-black text-white py-16 px-6 md:px-20">
+    <section id="resume" className="bg-black text-white py-16 px-6 md:px-20">
       <h2 className="text-4xl font-bold mb-12 text-yellow-400 text-center">
         Resume
       </h2>
