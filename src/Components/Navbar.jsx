@@ -37,13 +37,16 @@ export default function Navbar() {
           <a href="#skills" className="hover:text-amber-300 transition">
             SKILLS
           </a>
-          <a href="#contact" className="hover:text-amber-300 transition">
+          <a
+            href="#contact"
+            className="hover:text-amber-300 transition text-amber-300"
+          >
             CONTACT
           </a>
           <div className="border-l border-white h-6 mx-2" />
           <div className="flex items-center space-x-1 text-primary">
             <FaPhone />
-            <span>+91 9390627367</span>
+            <span className="text-amber-300">+91 9390627367</span>
           </div>
         </div>
 
