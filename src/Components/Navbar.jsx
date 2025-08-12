@@ -1,6 +1,6 @@
 // src/components/Navbar.jsx
 import { useState } from "react";
-import { FaPhone } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,7 +10,9 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
         {/* Logo */}
         <div className="flex items-center space-x-2">
-          {/* <div className="text-primary text-2xl font-bold">🌼</div> */}
+          {/* <div className="text-primary text-2xl font-bold">
+            <img src="/assets/new logo.jpg" alt="" />
+          </div> */}
           <h1 className="text-xl font-bold">
             <span className="text-primary text-3xl text-amber-300">Sai</span>
             Kiran
@@ -43,11 +45,23 @@ export default function Navbar() {
           >
             CONTACT
           </a>
-          <div className="border-l border-white h-6 mx-2" />
+          {/* <div className="border-l border-white h-6 mx-2" />
           <div className="flex items-center space-x-1 text-primary">
             <FaPhone />
             <span className="text-amber-300">+91 9390627367</span>
           </div>
+        </div> */}
+          <div className="border-l border-white h-6 mx-2" />
+          <a
+            href="https://wa.me/919390627367"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center space-x-1 text-primary hover:text-green-400 transition-colors duration-300"
+          >
+            <FaWhatsapp className="text-green-500 text-lg animate-pulse" />
+
+            <span className="text-green-500">+91 9390627367</span>
+          </a>
         </div>
 
         {/* Mobile Menu Toggle */}
@@ -95,7 +109,7 @@ export default function Navbar() {
             </a>
           ))}
           <div className="flex items-center text-primary">
-            <FaPhone className="mr-2" />
+            <FaWhatsapp className="text-green-500 text-lg animate-pulse" />
             <span>+91 9390627367</span>
           </div>
         </div>

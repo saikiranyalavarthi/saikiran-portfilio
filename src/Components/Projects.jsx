@@ -64,10 +64,17 @@ export default function Projects() {
             key={index}
             className="bg-black text-white p-6 rounded-xl shadow-md"
           >
-            <img
+            {/* <img
               src={proj.image}
               alt={proj.title}
               className="w-full h-48 object-cover rounded-md mb-4"
+            /> */}
+            <img
+              src={proj.image}
+              alt={proj.title}
+              className="w-full h-48 object-cover rounded-md mb-4 
+             filter contrast-125 saturate-150 brightness-105 
+             hover:brightness-110 hover:scale-105 transition-transform duration-300"
             />
             <h3 className="text-lg font-semibold text-amber-300 mb-2">
               {proj.title}
