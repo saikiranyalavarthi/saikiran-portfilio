@@ -108,10 +108,16 @@ export default function Navbar() {
               {item}
             </a>
           ))}
-          <div className="flex items-center text-primary">
+
+          <a
+            href="https://wa.me/919390627367?text=Hi%2C%20I%27m%20interested%20in%20your%20services"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center text-primary space-x-2 hover:text-green-400 transition-colors duration-300"
+          >
             <FaWhatsapp className="text-green-500 text-lg animate-pulse" />
             <span>+91 9390627367</span>
-          </div>
+          </a>
         </div>
       )}
     </nav>
